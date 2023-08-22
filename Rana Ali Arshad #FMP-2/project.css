@@ -1,0 +1,388 @@
+*{
+    /* font-family: 'Poppins', sans-serif; */
+font-family: 'Roboto', sans-serif;
+/* font-family: "Open Sans",sans-serif; */
+margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+
+}
+.topbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background-color:#F5F5F5;
+    font-family: "Open Sans",sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #555;
+    padding: 15px 35px;
+}
+.topbar-left{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+
+}
+.topbar-right{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 50px;
+}
+.topbar-icons{
+
+    display: flex;
+    gap: 5px;
+}
+.a1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    text-decoration: none;
+
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+    transition: all .5s ease 0s;
+    background-color: white;
+}
+ul {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.logo{
+    color: #AB7442;
+    font-size: 20px;
+    padding-left: 35px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.mainmenu {
+    font-weight: 350;
+    font-size: 17px;
+}
+
+.mainmenu:link {
+    color: black;
+    text-decoration: none;
+}
+
+.mainmenu:visited {
+    color: black;
+}
+
+.mainmenu:hover {
+    color: #AB7442;
+}
+
+.featurList1{
+    z-index: 1;
+    display: none;
+    position: absolute;
+    top: 45px;
+    left: 950px;
+    background-color: white;
+    color: #75512d;
+
+}
+.submenu:hover .featurList1{
+    display: block;
+
+}
+
+.list{
+    width: 150px;
+    height: 30px;
+    padding: 8px;
+    font-weight: 300;
+    /* margin-left: -32px; */
+}
+.list:hover{
+    background-color: #555;
+}
+.a10{
+    text-decoration: none;
+    color: black;
+}
+.a10:hover{
+    color: black;
+}
+.b1{
+    color: white;
+    height: 60px;
+    width: 200px;
+    background-color: #AB7442;
+    border: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+.container1{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(./img/carousel-1.jpg) ;
+    width: 100%;
+    height: 340px;
+    background-size: cover;
+    /* background-position-x: 30px; */
+    background-repeat: no-repeat;
+    /* background-position-y: -220px; */
+    position: relative;
+    /* padding-top: 40px; */
+    /* margin-top: 10px; */
+
+}
+.cont1{
+    position: absolute;
+    top: 120px;
+    left: 115px;
+    line-height: 60px;
+    color: white;
+}
+
+
+
+
+
+
+.container6{
+    text-align:  center;
+    color: #353535;
+    font-weight: 900;
+    font-size: 1.6rem;
+    margin-top: 100px;
+}
+
+
+
+
+
+
+
+.container10{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+    flex-wrap: wrap;
+
+}
+
+
+.cont10{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    border: 5px solid #f5f5f5;
+    overflow: hidden;
+
+
+}
+.img10service{
+    width: 100%;
+
+}
+.cont10data{
+    padding: 25px 50px 20px 10px;
+
+}
+.cont10data h5{
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 30px;
+}
+.cont10img{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.cont101{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 0%;
+    height: 0%;
+    position: absolute;
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.622);
+    transition: width 2s,height 2s;
+    /* display: none; */
+    opacity: 0;
+}
+.cont10img:hover .cont101{
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+
+}
+.cont10img:hover{
+    transform: scale(1.1);
+}
+.a6{
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+.a6:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container3{
+    width: 100%;
+    background-color: #313131;
+    padding-top: 100px;
+    margin-top: 100px;
+
+
+}
+.cont3{
+    margin: 0 auto;
+    display: flex;
+    width: 80%;
+    /* align-items: center; */
+    justify-content: center;
+    /* background-color: yellow; */
+    gap: 64px;
+    border-bottom: 1px solid #464646;
+    padding-bottom: 50px;
+
+
+}
+.cont3-1{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    color: white;
+    gap: 15px;
+}
+.a3{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    /* transition: color 0.5s; */
+}
+.a3:hover{
+    color: #AB7442;
+    letter-spacing: 1px;
+}
+.cont3-icons{
+    display: flex;
+    gap: 5px;
+}
+.a2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+   width: 32px;
+   height: 32px;
+   color: white;
+   text-decoration: none;
+}
+.a2:hover{
+    background-color: white;
+    color: #AB7442;
+}
+.cont3-input{
+    display: flex;
+    /* width: 30px; */
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    align-items: center;
+    /* gap: 20px; */
+    padding: 10px;
+}
+.input{
+    border: none;
+    width: 100px;
+    height: 40px;
+}
+.input::placeholder{
+    font-size: 17px;
+    text-align: center;
+}
+.b3{
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: white;
+    background-color: #AB7442;
+    font-size: 17px;
+    /* margin-right: 10px; */
+    transition: background-color 0.5s;
+}
+.b3:hover{
+    background-color: #c8945f;
+
+}
+
+.container4{
+    padding-top: 30px;
+
+    background-color: #313131;
+    width: 100%;
+
+}
+.cont4{
+    padding-bottom: 30px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    color: white;
+
+}
+.a4{
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+}
+.a4:hover{
+    color: #AB7442;
+}
